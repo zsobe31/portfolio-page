@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by zsobe31 (http://jsbin.com/bakede/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="portfolio">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style id="jsbin-css">
+p {
+  font-size: 16px;
+}
+.margin {
+  margin-bottom: 45px;
+}
+.bg-1 {
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+.bg-2 {
+  background-color: #474e5d;
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: #ffffff;
+  color: #555555;
+}
+.bg-4 {
+  background-color: #ffffff;
+  color: #fff;
+}
+.container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  max-height: 5%;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c;
+}
+#munkaim h2, p {
+  text-align: center;
+  color: black;
+}
+.thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail:hover {
+  opacity: 0.3;
+  transform: scale(1, 1.2);
+}
+#rolam p {
+  width: 75%;
+  color: white;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+#rolam img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#munkaim img {
+  border-radius: 5px;
+}
+#kapcsolatok i {
+  padding: 10px;
+  font-size: 20px;
+}
+#kapcsolatok i:hover {
+  transform: scale(2, 2);
+  color: #ffffff;
+}
+
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#rolam">Rólam</a></li>
+        <li><a href="#munkaim">Munkáim</a></li>
+        <li><a href="#kapcsolatok">Kapcsolatok</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- rólam -->
+  <div class="container-fluid bg-1 text-center" id="rolam">
+    <h3 class="margin">Szabó Zsolt</h3>
+    <img src="https://i.imgur.com/UeMuge9.jpg" class="img-responsive margin" style="display:inline" alt="Zsolt" width="350" height="350">
+    <h3>Kezdő/tanuló programozó vagyok.</h3>
+    <p>2018 év elején kezdtem el online tanulni a programozás alapjait. Eddig belekostoltam a HTML, CSS, Bootstrap, JavaScript és jQuery rejtelmeibe. Kezdő vagyok, lelkes tanuló! Szeretnék minnél jobb lenni, ez a célom!</p>
+  </div>
+
+  <div class="container-fluid" id="munkaim">
+    <h2>Munkáim</h2>
+    <p>codepen munkák</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="https://codepen.io/zsobe31/full/yKjYyY">
+          <img src="https://i.imgur.com/fpUK7wO.png" alt="amerika captain">
+          <div class="caption">
+            <p>Amerika kapitány</p>
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="https://codepen.io/zsobe31/full/zWWWjR">
+          <img src="https://i.imgur.com/V3JrT9N.png" alt="Dr. Norman Borlaug">
+          <div class="caption">
+            <p>Dr. Norman Borlaug</p>
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="https://codepen.io/zsobe31/">
+          <img src="https://i.imgur.com/8AOnqDf.jpg?4" alt="next work">
+          <div class="caption">
+            <p>Következő munkám.</p>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- kapcsolatok -->
+  <div class="container-fluid bg-2 text-center margin" id="kapcsolatok">
+    <h3 class="margin">Kapcsolatok:</h3>
+      <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.github.com/"><i class="fa fa-github"></i></a>
+    <a href="https://www.codepen.io/zsobe31/"><i class="fa fa-codepen"></i></a>
+    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container-fluid bg-4 text-center" id="footer">
+    <p>Written By <a href="https://codepen.io/zsobe31/">Zsolt</a></p>
+  </footer>
+</body>
+</html>
